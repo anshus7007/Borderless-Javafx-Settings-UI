@@ -3,7 +3,7 @@ A JavaFX LoginPage/Settings Page borderless UI with glowing textfields.
 
 <table>
   <tr>
-    <td>Message Chat UI</td>
+    <td>Settings Page UI</td>
      
   </tr>
   <tr>
