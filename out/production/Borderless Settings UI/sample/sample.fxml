@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="561.0" style="-fx-background-color: #2A0033;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="85.0" prefWidth="562.0" />
+      <Pane layoutX="1.0" layoutY="87.0" prefHeight="479.0" prefWidth="562.0">
+         <children>
+            <TextField layoutX="197.0" layoutY="68.0" prefHeight="34.0" prefWidth="297.0" style="-fx-border-color: #9643A9; -fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20;" />
+            <Label layoutX="56.0" layoutY="75.0" text="E-mail" textFill="#dfdddd">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="146.0" text="Current Password" textFill="#dfdddd">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField layoutX="197.0" layoutY="139.0" prefHeight="34.0" prefWidth="297.0" style="-fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-color: #9643A9; -fx-border-radius: 20;" />
+            <PasswordField layoutX="194.0" layoutY="207.0" prefHeight="34.0" prefWidth="297.0" style="-fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-color: #9643A9; -fx-border-radius: 20;" />
+            <PasswordField layoutX="194.0" layoutY="281.0" prefHeight="34.0" prefWidth="297.0" style="-fx-background-color: #2A0033; -fx-background-insets: 0; -fx-border-radius: 20; -fx-border-color: #9643A9;" />
+            <Label layoutX="56.0" layoutY="222.0" text="New Password" textFill="#dfdddd">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="54.0" layoutY="288.0" text="Confirm Password" textFill="#dfdddd">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="61.0" layoutY="343.0" text="User Sign in" textFill="#dfdddd">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="194.0" layoutY="344.0" mnemonicParsing="false" text="Yes" textFill="WHITE" />
+            <RadioButton layoutX="262.0" layoutY="344.0" mnemonicParsing="false" text="No" textFill="WHITE" />
+            <Separator layoutX="56.0" layoutY="404.0" opacity="0.16" prefHeight="1.0" prefWidth="439.0" />
+            <Separator layoutX="54.0" layoutY="34.0" opacity="0.16" prefHeight="3.0" prefWidth="439.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
